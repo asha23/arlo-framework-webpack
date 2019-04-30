@@ -18,9 +18,9 @@
         "theme": {
             "type": "package",
             "package": {
-                "name": "asha23/wp-seed",
+                "name": "asha23/arlo-framework-webpack-seed",
                 "type": "wordpress-theme",
-                "version": "0.4.6",
+                "version": "0.1",
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/asha23/arlo-framework-webpack-seed/archive/0.1.zip"
