@@ -38,23 +38,7 @@
 					"url": "https://github.com/corysimmons/wp-sync-db/archive/1.6.zip"
 				}
 			}
-        },
-        "acf": {
-			"type": "package",
-			"package": {
-				"name": "advanced-custom-fields/advanced-custom-fields-pro",
-				"version": "5.5.7",
-				"type": "wordpress-plugin",
-				"dist": {
-					"type": "zip",
-					"url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
-				},
-				"require": {
-					"philippbaschke/acf-pro-installer": "^1.0",
-					"composer/installers": "^1.0"
-				}
-			}
-		}
+        }
     },
     "require": {
         "php": ">=7.1",
@@ -69,7 +53,6 @@
         "wpackagist-plugin/wordpress-seo": "*",
         "wpackagist-plugin/wps-hide-login": "*",
         "wpackagist-plugin/disable-gutenberg":"*",
-        "advanced-custom-fields/advanced-custom-fields-pro": "*",
         "wp-sync-db/wp-sync-db": "*",
         "wpackagist-plugin/wordfence": "*",
         "asha23/arlo-framework-webpack-seed": "*"
