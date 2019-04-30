@@ -20,10 +20,10 @@
             "package": {
                 "name": "asha23/arlo-framework-webpack-seed",
                 "type": "wordpress-theme",
-                "version": "0.2",
+                "version": "0.2.1",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/asha23/arlo-framework-webpack-seed/archive/0.2.zip"
+                    "url": "https://github.com/asha23/arlo-framework-webpack-seed/archive/0.2.1.zip"
                 }
             }
 		},
