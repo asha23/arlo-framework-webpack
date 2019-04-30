@@ -72,7 +72,7 @@
         "advanced-custom-fields/advanced-custom-fields-pro": "*",
         "wp-sync-db/wp-sync-db": "*",
         "wpackagist-plugin/wordfence": "*",
-        "asha23/wp-seed": "*"
+        "asha23/wp-seed/arlo-framework-webpack-seed": "*"
     },
     "extra": {
         "installer-paths": {
