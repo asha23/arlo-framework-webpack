@@ -15,14 +15,18 @@
             "type": "composer",
             "url": "https://wpackagist.org"
         },
+		"arlo-framework-webpack-seed": {
+			"type": "git",
+			"url": "https://github.com/asha23/arlo-framework-webpack-seed"
+		},
 		"core-functionality": {
 			"type": "git",
 			"url": "https://github.com/asha23/Wordpress-Core-Functionality-Plugin"
 		},
-	    	"arlo-framework-webpack-seed": {
-			"type":"git",
-			"url":"https://github.com/asha23/arlo-framework-webpack-seed
-		}
+		"custom-gutenberg-blocks": {
+			"type": "git",
+			"url": "https://github.com/asha23/custom-gutenberg-blocks"
+		},
 		"acf": {
 			"type": "package",
 			"package": {
@@ -45,22 +49,23 @@
         "php": ">=7.1",
         "composer/installers": "~1.0.12",
         "johnpbloch/wordpress": "*",
-	"vlucas/phpdotenv": "^2.0.1",
-	"oscarotero/env": "^1.0",
-	"advanced-custom-fields/advanced-custom-fields-pro":"*",
-	"asha23/core-functionality":"^1.0.4",
+	    "vlucas/phpdotenv": "^2.0.1",
+		"oscarotero/env": "^1.0",
+		"advanced-custom-fields/advanced-custom-fields-pro":"*",
+		"asha23/core-functionality":"*",
+		"asha23/custom-gutenberg-blocks":"*",
         "wpackagist-plugin/tinymce-advanced": "*",
         "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
         "wpackagist-plugin/duplicate-post": "*",
         "wpackagist-plugin/simple-image-sizes": "*",
         "wpackagist-plugin/wordpress-seo": "*",
         "wpackagist-plugin/wps-hide-login": "*",
-	"wpackagist-plugin/disable-gutenberg":"*",
-	"wpackagist-plugin/svg-support": "*",
-	"wpackagist-plugin/sparkpost":"*",
+		"wpackagist-plugin/disable-gutenberg":"*",
+		"wpackagist-plugin/svg-support": "*",
+		"wpackagist-plugin/sparkpost":"*",
         "wp-sync-db/wp-sync-db": "*",
-        "wpackagist-plugin/wordfence": "*",
-	"asha23/arlo-framework-webpack-seed":"*"
+		"wpackagist-plugin/wordfence": "*",
+		"asha23/arlo-framework-webpack-seed":"*"
     },
     "extra": {
         "installer-paths": {
