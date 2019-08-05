@@ -21,7 +21,7 @@
 		},
 		"core-functionality": {
 			"type": "git",
-			"url": "https://github.com/asha23/Wordpress-Core-Functionality-Plugin"
+			"url": "https://github.com/asha23/core-functionality"
 		},
 		"custom-gutenberg-blocks": {
 			"type": "git",
