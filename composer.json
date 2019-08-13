@@ -23,10 +23,6 @@
 			"type": "git",
 			"url": "https://github.com/asha23/core-functionality"
 		},
-		"custom-gutenberg-blocks": {
-			"type": "git",
-			"url": "https://github.com/asha23/custom-gutenberg-blocks"
-		},
 		"acf": {
 			"type": "package",
 			"package": {
@@ -42,6 +38,18 @@
 					"composer/installers": "^1.0"
 				}
 			}
+		},
+	    "wp-sync-db": {
+			"type": "package",
+			"package": {
+				"name": "wp-sync-db/wp-sync-db",
+				"type": "wordpress-plugin",
+				"version": "1.6",
+				"dist": {
+					"type": "zip",
+					"url": "https://github.com/corysimmons/wp-sync-db/archive/1.6.zip"
+				}
+			}
 		}
 		
     },
@@ -53,16 +61,12 @@
 		"oscarotero/env": "^1.0",
 		"advanced-custom-fields/advanced-custom-fields-pro":"*",
 		"asha23/core-functionality":"*",
-		"asha23/custom-gutenberg-blocks":"*",
         "wpackagist-plugin/tinymce-advanced": "*",
         "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
         "wpackagist-plugin/duplicate-post": "*",
-        "wpackagist-plugin/simple-image-sizes": "*",
         "wpackagist-plugin/wordpress-seo": "*",
-        "wpackagist-plugin/wps-hide-login": "*",
 		"wpackagist-plugin/disable-gutenberg":"*",
 		"wpackagist-plugin/svg-support": "*",
-		"wpackagist-plugin/sparkpost":"*",
         "wp-sync-db/wp-sync-db": "*",
 		"wpackagist-plugin/wordfence": "*",
 		"asha23/arlo-framework-webpack-seed":"*"
