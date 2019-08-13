@@ -1,6 +1,6 @@
 /web/wp/wp-content
 .vagrant
-node-modules
+node_modules
 bower
 sassdoc
 web/content/upgrade
