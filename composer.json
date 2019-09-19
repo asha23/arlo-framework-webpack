@@ -62,13 +62,13 @@
 		"oscarotero/env": "^1.0",
 		"advanced-custom-fields/advanced-custom-fields-pro":"*",
 		"asha23/core-functionality":"*",
-        "wpackagist-plugin/tinymce-advanced": "*",
-        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
-        "wpackagist-plugin/duplicate-post": "*",
-        "wpackagist-plugin/wordpress-seo": "*",
+        	"wpackagist-plugin/tinymce-advanced": "*",
+        	"wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
+       		"wpackagist-plugin/duplicate-post": "*",
+        	"wpackagist-plugin/wordpress-seo": "*",
 		"wpackagist-plugin/disable-gutenberg":"*",
 		"wpackagist-plugin/svg-support": "*",
-        "wp-sync-db/wp-sync-db": "*",
+        	"wp-sync-db/wp-sync-db": "*",
 		"wpackagist-plugin/wordfence": "*",
 		"asha23/arlo-framework-webpack-seed":"*"
     },
@@ -79,5 +79,8 @@
         },
         "wordpress-install-dir": "web/wp",
         "content-install-dir": "web/content"
+    },
+"require-dev": {
+        "lucatume/wp-browser": "^2.2"
     }
 }
