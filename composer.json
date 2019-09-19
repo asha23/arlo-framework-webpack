@@ -2,7 +2,7 @@
     "name": "asha23/arlo-framework-webpack",
     "type": "project",
     "license": "MIT",
-	"version":"1.0.3",
+	"version":"1.0.4",
     "description": "A Composer Framework to help you get WordPress up and running in around a minute",
     "authors": [{
         "name": "Ash Whiting",
@@ -79,8 +79,5 @@
         },
         "wordpress-install-dir": "web/wp",
         "content-install-dir": "web/content"
-    },
-"require-dev": {
-        "lucatume/wp-browser": "^2.2"
     }
 }
